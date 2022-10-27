@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCF Temperature Converter</title>
+    <link rel="stylesheet" href="../TASK3/styleTC.css">
+</head>
+<body>
+    <section class="temp">
+            <div class="tccon">
+                    <h2 id="Title">Temperature Converter</h2>
+                    <br><br>
+                    <form class="tfo">
+                        <label for="IT" id="ip">Input Temperature</label>
+                        <br><br>
+                        <input type="number" id="inp">
+                        <select id="from">
+                            <option value="Celsius">Celsius</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                        <br><br>
+                        <label for="OT" id="op">Output Temperature</label>
+                        <br><br>
+                        <input type="number" id="out">
+                        <select id="to">
+                            <option value="Celsius">Celsius</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </form>
+                    <br><br>
+                    <button id="btn">Calculate</button>
+                    <br><br>
+                    <p id="info">Please enter numerical values only.</p>
+            </div>
+    </section>
+    <section class="task">
+        <div class="backlink">
+            <p>
+                Return to <a href="../index.html">Task List</a>
+            </p>
+        </div>
+    </section>
+    <script src="../TASK3/scriptTC.js"></script>
+</body>
+</html>
